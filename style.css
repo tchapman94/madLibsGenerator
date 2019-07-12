@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-color:black;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+}
+#directions{
+    margin: 10;
+    margin-top: -5px;
+    font-size: 25px;
+}
+#input-texts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    background-color:grey; 
+}
+#input-texts > label{
+    margin: 10px;
+}
+#input-radio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    background-color:grey;
+}
+#input-radio > label{
+    margin:10px;
+}
+#gen-story{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: grey;
+}
+#gen-story > #story-btn{
+    width: 125px;
+    height: 35px;
+}
+#stories{
+    background-color: grey; 
+}
+
+#stories > p{
+    display: none;
+}
+
+
